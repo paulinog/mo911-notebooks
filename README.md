@@ -17,16 +17,21 @@ python3 -m virtualenv mo430-env
 
 # Activate the virtualenv
 source mo430-env/bin/activate
+
+# Install modules inside the venv
+pip3 install matplotlib
 ```
-
-### Instalando Jupyter Notebook
-
-```bash
-pip3 install jupyter
-````
 
 ### Clonando o repositório
 
 ```bash
-git clone https://github.com/srigo-MO430/notebooks.git
-````
+git clone https://github.com/paulinog/mo911-notebooks.git 
+```
+
+### Instalando e Rodando o Jupyter Notebook
+
+```bash
+pip3 install jupyter
+jupyter notebook
+```
+
